@@ -3,9 +3,9 @@
 Project in work....
 
 Authors:
-  - Ana Antunes  61025
   - Joana Wang  60225
   - Nelson Matos  60483
-  - Pedro Estróia  60691
   - Renato Viola  60665
+  - Pedro Estróia  60691
+  - Ana Antunes  61025
 
