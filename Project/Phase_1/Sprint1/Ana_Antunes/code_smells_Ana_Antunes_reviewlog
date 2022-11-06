@@ -1,0 +1,40 @@
+
+|CODE SMELLS REVIEWED by Ana Antunes|
+
+
+
+Nelson Identification - Duplicated Code 
+
+
+Review:
+
+Simple explanation.
+
+Good and straightforward refactoring solution, 
+there only should be a little more explicit that we are talking about 2 methods of different classes,"CutAction" and "CopyAction".
+
+
+
+
+Pedro Identification - Comments 
+
+
+Review:
+
+Direct and accertive explanation.
+
+Good refactoring, giving different solutions and examples to a better "coments" use. 
+Particularly he could evidence here the idea of the principle of "say more with fewer words".
+
+
+
+
+
+Renato Identification - Reminder Comment
+
+
+Review:
+
+Good and simple define of the code Smell, with the ilustrating image attached with the details of the code explanation.
+
+Easy and certain solution.
