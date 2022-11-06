@@ -1,0 +1,32 @@
+REVIEWER - Renato Viola
+
+
+| DESIGN PATTERNS |
+
+
+FACADE (identified by Pedro Estróia)
+	
+	The use of the facade pattern could've been explained
+	in a more complete manner, such as mentioning how this 
+	pattern is intended to minimize dependencies between
+	subsystems. Yet, the explanation was accurate and concisive overall.
+
+	
+TEMPLATE (identified by Joana Wang)
+
+	The explanation could've been worded a bit better,
+	in order to avoid misunderstanding it.
+	To say this pattern leaves an algorithm's implementation
+	details to its subclasses can be interpreted as a bit of
+	a generalization, since not all the steps of the algorithm
+	necessarily need to be handled in its subclasses, only some.
+	That said, it is still a fairly correct explanation.
+	
+	
+OBSERVER (identified by Ana Antunes)
+
+	The explanation could be elaborated upon further and worded a bit better. 
+	The method to add a listener does not state that it is notified when 
+	being created, but rather that there might be some sort of callback 
+	mechanism to notify it when already "subscribed" to the subject.
+	The core concept of the observer pattern was grasped.

@@ -1,0 +1,34 @@
+REVIEWER - Renato Viola
+
+
+| CODE SMELLS |
+
+
+MESSAGE CHAIN (identified by Joana Wang)
+
+	While the explanation itself is quite informative, 
+	the refactoring proposal could be more complete, as it lacks
+	some rationale behind the use of the law of
+	Demeter. Some of what this law states could've been 
+	touched upon, such as making it so that the method 
+	can only call other methods encapsulated within the 
+	same class or within a parameter of the method.
+	Other than that, solid explanation and possible solution.
+
+
+SWITCH STATEMENT (identified by Nelson Matos)
+
+	Both the explanation and the refactoring proposal are
+	informative, easy to understand and compact.
+	There is nothing to add.
+
+
+DATA CLASS (identified by Pedro Estróia)
+
+	The explanation is clear and assertive.
+	As for the refactoring proposal, more solutions could've
+	been proposed as to merely delete the class and replace it 
+	with a variable. Perhaps ponder if such a class could
+	have something else placed in it or what other classes 
+	handle this very same data.
+	Overall, decent explanation and refactoring proposal.
