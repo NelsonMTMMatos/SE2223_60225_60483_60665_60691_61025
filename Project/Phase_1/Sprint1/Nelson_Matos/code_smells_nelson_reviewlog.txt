@@ -1,0 +1,30 @@
+Review:
+
+Code smell (Joana Wang):
+
+Class Data
+
+We can see that this class is just encapsulating methods or variables 
+that could've easily been put in the class that handles them, there is no extra
+functionalities being provided therefore I do agree with the observation
+and explanatory statement.
+
+
+Code Smell (Ana Antunes):
+
+Long method
+
+By the nomenclature and parameters of the method we already know that 
+by nature it is gonna be pretty exhaustive regarding conditional checking.
+Therefore a common approach is to extract some of the conditions, as in, 
+it is better to decompose these verifications into either private methods 
+or with object methods as said in the refactoring proposal.
+
+
+Code Smell (Pedro Estróia):
+
+Dead code
+
+After reading the refactoring proposal and checking if there are any
+reference calls of the WebStartIDClass class we can conclude that the
+class is in fact obsolete. Therefore I agree with what is being stated above.
