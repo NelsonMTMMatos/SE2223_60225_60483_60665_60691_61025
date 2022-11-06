@@ -1,0 +1,39 @@
+
+|PATTERNS REVIEWED by Ana Antunes|
+
+
+
+Nelson Identification - Proxy
+
+
+Review:
+
+Good explanation, explicit to everyone. 
+
+The ilustrating image isn´t the best matching with the description.
+Probably showing the control class that gives the "Documents" acess and a little discription of the image would help to understand this pattern.
+
+
+
+
+Nelson Identification - Memento
+
+
+Review:
+
+Simple description and well defined idea with the code snipped above.
+
+The explanation could be a little more complete, adding the fact that the "UndoableEditImpl" is storing a copy of the previous work state,
+so, this way, the project can be restored in the future(the restored work can be acessed by "UndoableEditImpl").
+
+
+
+
+Pedro Identification - Singleton
+
+
+Review:
+
+Good and clean explanation.
+
+The only detail woud be a more specific explanation to this concrete example, so that everyone could understand better how it´s done there.
