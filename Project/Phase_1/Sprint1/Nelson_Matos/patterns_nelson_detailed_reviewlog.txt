@@ -1,0 +1,28 @@
+Review:
+
+Design Pattern (Joana Wang):
+
+Singleton
+
+Despite unmentioned in the explanation we are able to 
+observe that its constructor is private which is indicative 
+of a Singleton pattern after further analysing the GPCalendarProvider.
+
+
+Design Pattern (Ana Antunes):
+
+Strategy
+
+The explanation was a bit confusing. We mainly use this design pattern
+when we find or want an algotithm that's prone to reocurrent changes,
+the interface purpose is to declare all the common methods shared 
+amongst the algorithms whilst each of them is implemented in a different class.
+This way we prevent the occurence of unnecessarily complex and large classes.
+
+
+Design Pattern (Pedro Estróia):
+
+Iterator
+
+This design pattern is pretty straightforward and easy to understand 
+so there's harshly anything to add to the explanation.
