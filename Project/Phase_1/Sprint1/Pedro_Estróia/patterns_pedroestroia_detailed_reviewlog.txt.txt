@@ -1,0 +1,10 @@
+Design patterns (reviewed by Pedro Estróia)
+
+Singleton (Ana Antunes):
+The chosen code examples illustrate very well the Singleton design pattern and the way it is being used to restrict the class to one instance only. However, the explanation was too simple, and does not refer the instance variable that creates the class object nor the private constructor, lacking a better connection between the explanation and the snippets.
+
+Command (Joana Wang):
+The chosen code snippet could've been a little more informative of the command pattern and does not complement the explanation very well. Even though the actual explanation is correct, it could've benefited from being more specific and related to the code example.
+
+Chain of responsability (Renato Viola):
+This code snippet was a good choice for this pattern, describing very well how the created handler works. However, there could also be present a code snippet of the TaskDisplayColumnsTagHandler class, showing how the request is handled. About the explanation, it could be a little bit more descriptive, and could describe briefly how the handler class works. 

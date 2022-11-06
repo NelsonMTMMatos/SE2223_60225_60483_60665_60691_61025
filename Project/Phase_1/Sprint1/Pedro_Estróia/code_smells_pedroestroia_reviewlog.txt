@@ -1,0 +1,10 @@
+Code smells (reviewed by Pedro Estróia)
+
+Long method (Renato Viola):
+This method's structure could be a little bit less complex if it was divided into smaller auxiliary methods (making the verifications, or even returning objects), as said in the refactoring proposal, even though this method can be naturally long in certain parts, because it calls a lot of other functions and needs many verifications. As a sidenote, we could also reduce significantly its size by removing the commented code, which is also a pretty bad code smell.
+
+Dead code (Nelson Matos):
+Although this method is called once in the same class, it doesn't do anything since it's empty (only contains commented code): as the explanation confirms, we're in the presence of dead code. The refactoring proposal is the most adequate one, and the best solution for this code smell.
+
+Long parameter list (Joana Wang):
+The method from the snippet indeed presents a very long list of parameters, making the code not so easy to read. The presented solution is in fact the best option to solve this issue.
