@@ -1,9 +1,6 @@
-Reviews:
+ANA
 
-
-Ana
-
-Code Smells
+_Code Smells_
 
 
 Duplicated Code (Nelson):
@@ -29,7 +26,7 @@ Easy and certain solution.
 
 
 
-Design Patterns
+_Design Patterns_
 
 
 Proxy (Nelson):
@@ -61,9 +58,9 @@ better how it´s done there.
 
 -----------------------------------------------//-----------------------------------------------
 
-Joana
+JOANA
 
-Code smells
+_Code smells_
 
  
 Duplicate code (Ana): 
@@ -90,7 +87,7 @@ finding another example for this code smell, which can be without a doubt.
 
 
 
-Design Patterns
+_Design Patterns_
 
 
 Iterator (Nelson):
@@ -123,9 +120,9 @@ couldn't communicate.
 
 
 -----------------------------------------------//-----------------------------------------------
-Nelson
+NELSON
 
-Code Smells
+_Code Smells_
 
 
 Class Data (Joana Wang):
@@ -153,7 +150,7 @@ class is in fact obsolete. Therefore I agree with what is being stated above.
 
 
 
-Design Patterns
+_Design Patterns_
 
 
 Singleton (Joana Wang):
@@ -181,10 +178,9 @@ so there's harshly anything to add to the explanation.
 
 
 -----------------------------------------------//-----------------------------------------------
+PEDRO
 
-Pedro
-
-Code Smells
+_Code Smells_
 
 
 Long method (Renato Viola):
@@ -212,7 +208,7 @@ best option to solve this issue.
 
 
 
-Design Patterns
+_Design Patterns_
 
 
 Singleton (Ana Antunes):
@@ -242,10 +238,9 @@ request is handled. About the explanation, it could be a little bit more descrip
 
 
 -----------------------------------------------//-----------------------------------------------
+RENATO
 
-Renato
-
-Code Smells
+_Code Smells_
 
 
 Message Chain (Joana Wang):
@@ -279,7 +274,7 @@ Overall, decent explanation and refactoring proposal.
 
 
 
-Design Patterns
+_Design Patterns_
 
 
 Facade (Pedro Estróia):
