@@ -1,0 +1,307 @@
+Reviews:
+
+
+Ana
+
+Code Smells
+
+
+Duplicated Code (Nelson):
+
+Simple explanation.
+Good and straightforward refactoring solution, 
+there only should be a little more explicit that we are talking 
+about 2 methods of different classes,"CutAction" and "CopyAction".
+
+
+Comments (Pedro):
+
+Direct and accertive explanation.
+Good refactoring, giving different solutions and examples to a better "coments" use. 
+Particularly he could evidence here the idea of the principle of "say more with fewer words".
+
+
+Reminder Comment (Renato):
+
+Good and simple define of the code Smell, with the ilustrating image 
+attached with the details of the code explanation.
+Easy and certain solution.
+
+
+
+Design Patterns
+
+
+Proxy (Nelson):
+
+Good explanation, explicit to everyone. 
+The ilustrating image isn´t the best matching with the description.
+Probably showing the control class that gives the "Documents" acess 
+and a little discription of the image would help to understand this pattern.
+
+
+Memento (Nelson):
+
+Simple description and well defined idea with the code snipped above.
+The explanation could be a little more complete, adding the fact that 
+the "UndoableEditImpl" is storing a copy of the previous work state,
+so, this way, the project can be restored in the future(the restored 
+work can be acessed by "UndoableEditImpl").
+
+
+Singleton (Pedro):
+
+Good and clean explanation.
+The only detail woud be a more specific explanation to 
+this concrete example, so that everyone could understand 
+better how it´s done there.
+
+
+
+
+-----------------------------------------------//-----------------------------------------------
+
+Joana
+
+Code smells
+
+ 
+Duplicate code (Ana): 
+
+Firstly, I am totally agreed with that example. 
+The refactoring proposed it´s also a possible solution, 
+but in my opinion, you can give more alternatives even betters.
+ 
+
+Long parameter list (Ana): 
+
+It is a good example for long parameter code smell. 
+However, you could be more specific in identifying the problem 
+in this code and the problems it causes.
+
+
+Dead code (Renato):
+
+Dead code: This is not exactly what I understand by dead code, in the sense that there is no code that is never used/executed.But I agreed with the fact that the method should be clean as there is a commented code which makes the method confused and sloppy.
+I suggest finding another example for this code smell, which can be without a doubt.
+
+
+
+Design Patterns
+
+
+Iterator (Nelson):
+
+The design pattern is relatively simple, since the iterator is extremely used
+(doing the same as 'for/while' cycles, but without accessing object
+representations), so the explanation is concise and complete.
+
+
+
+Façade (Renato): 
+
+I don't think it's the exact place to prove this design pattern. 
+However, the explanation of what the facade pattern is for and the 
+representative class example were correct. In the code shown, the method 
+was creating a new object of the ConsoleUIFacade class and then calling a 
+method to update with this new object. Therefore, it is not clear that said 
+class was hiding the complexity of the subsystem. I suggest showing the class 
+itself or the respective interface for this pattern.
+
+
+Adapter (Renato): 
+
+Concise explanation and clarifying this concrete classes and the 
+interaction between them. A little detail would be reforcing that 
+without the adapter class, libraries would conflite and classes 
+couldn't communicate.
+
+
+
+
+-----------------------------------------------//-----------------------------------------------
+Nelson
+
+Code Smells
+
+
+Class Data (Joana Wang):
+
+We can see that this class is just encapsulating methods or variables 
+that could've easily been put in the class that handles them, there is no extra
+functionalities being provided therefore I do agree with the observation
+and explanatory statement.
+
+
+Long method (Ana Antunes):
+
+By the nomenclature and parameters of the method we already know that 
+by nature it is gonna be pretty exhaustive regarding conditional checking.
+Therefore a common approach is to extract some of the conditions, as in, 
+it is better to decompose these verifications into either private methods 
+or with object methods as said in the refactoring proposal.
+
+
+Dead code (Pedro Estróia):
+
+After reading the refactoring proposal and checking if there are any
+reference calls of the WebStartIDClass class we can conclude that the
+class is in fact obsolete. Therefore I agree with what is being stated above.
+
+
+
+Design Patterns
+
+
+Singleton (Joana Wang):
+
+Despite unmentioned in the explanation we are able to 
+observe that its constructor is private which is indicative 
+of a Singleton pattern after further analysing the GPCalendarProvider.
+
+
+Strategy (Ana Antunes):
+
+The explanation was a bit confusing. We mainly use this design pattern
+when we find or want an algotithm that's prone to reocurrent changes,
+the interface purpose is to declare all the common methods shared 
+amongst the algorithms whilst each of them is implemented in a different class.
+This way we prevent the occurence of unnecessarily complex and large classes.
+
+
+Iterator (Pedro Estróia):
+
+This design pattern is pretty straightforward and easy to understand 
+so there's harshly anything to add to the explanation.
+
+
+
+
+-----------------------------------------------//-----------------------------------------------
+
+Pedro
+
+Code Smells
+
+
+Long method (Renato Viola):
+
+This method's structure could be a little bit less complex if it was 
+divided into smaller auxiliary methods (making the verifications, or even 
+returning objects), as said in the refactoring proposal, even though this 
+method can be naturally long in certain parts, because it calls a lot of 
+other functions and needs many verifications. As a sidenote, we could also 
+reduce significantly its size by removing the commented code, which is also 
+a pretty bad code smell.
+
+Dead code (Nelson Matos):
+
+Although this method is called once in the same class, it doesn't 
+do anything since it's empty (only contains commented code): as the 
+explanation confirms, we're in the presence of dead code. The refactoring 
+proposal is the most adequate one, and the best solution for this code smell.
+
+Long parameter list (Joana Wang):
+
+The method from the snippet indeed presents a very long list of parameters, 
+making the code not so easy to read. The presented solution is in fact the 
+best option to solve this issue.
+
+
+
+Design Patterns
+
+
+Singleton (Ana Antunes):
+
+The chosen code examples illustrate very well the Singleton design 
+pattern and the way it is being used to restrict the class to one 
+instance only. However, the explanation was too simple, and does not 
+refer the instance variable that creates the class object nor the private 
+constructor, lacking a better connection between the explanation and the snippets.
+
+Command (Joana Wang):
+
+The chosen code snippet could've been a little more informative of 
+the command pattern and does not complement the explanation very well. 
+Even though the actual explanation is correct, it could've benefited from 
+being more specific and related to the code example.
+
+Chain of responsability (Renato Viola):
+
+This code snippet was a good choice for this pattern, describing very 
+well how the created handler works. However, there could also be present 
+a code snippet of the TaskDisplayColumnsTagHandler class, showing how the 
+request is handled. About the explanation, it could be a little bit more descriptive,
+ and could describe briefly how the handler class works. 
+
+
+
+
+-----------------------------------------------//-----------------------------------------------
+
+Renato
+
+Code Smells
+
+
+Message Chain (Joana Wang):
+
+While the explanation itself is quite informative, 
+the refactoring proposal could be more complete, as it lacks
+some rationale behind the use of the law of
+Demeter. Some of what this law states could've been 
+touched upon, such as making it so that the method 
+can only call other methods encapsulated within the 
+same class or within a parameter of the method.
+Other than that, solid explanation and possible solution.
+
+
+Switch Statement (Nelson Matos):
+
+Both the explanation and the refactoring proposal are
+informative, easy to understand and compact.
+There is nothing to add.
+
+
+Data Class (Pedro Estróia):
+
+The explanation is clear and assertive.
+As for the refactoring proposal, more solutions could've
+been proposed as to merely delete the class and replace it 
+with a variable. Perhaps ponder if such a class could
+have something else placed in it or what other classes 
+handle this very same data.
+Overall, decent explanation and refactoring proposal.
+
+
+
+Design Patterns
+
+
+Facade (Pedro Estróia):
+	
+The use of the facade pattern could've been explained
+in a more complete manner, such as mentioning how this 
+pattern is intended to minimize dependencies between
+subsystems. Yet, the explanation was accurate and concisive overall.
+
+	
+Template (Joana Wang):
+
+The explanation could've been worded a bit better,
+in order to avoid misunderstanding it.
+To say this pattern leaves an algorithm's implementation
+details to its subclasses can be interpreted as a bit of
+a generalization, since not all the steps of the algorithm
+necessarily need to be handled in its subclasses, only some.
+That said, it is still a fairly correct explanation.
+	
+	
+Observer (Ana Antunes):
+
+The explanation could be elaborated upon further and worded a bit better. 
+The method to add a listener does not state that it is notified when 
+being created, but rather that there might be some sort of callback 
+mechanism to notify it when already "subscribed" to the subject.
+The core concept of the observer pattern was grasped.
