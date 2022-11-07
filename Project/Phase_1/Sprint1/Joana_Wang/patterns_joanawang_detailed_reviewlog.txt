@@ -1,0 +1,15 @@
+Design Patterns (Renato Viola)
+
+Facade Pattern: 
+I don't think it's the exact place to prove this design pattern. However, the explanation of what the facade pattern is for and the representative class example were correct. In the code shown, the method was creating a new object of the ConsoleUIFacade class and then calling a method to update with this new object. Therefore, it is not clear that said class was hiding the complexity of the subsystem.
+I suggest showing the class itself or the respective interface for this pattern.
+
+Adapter Pattern: 
+Concise explanation and clarifying this concrete classes and the interaction between them.
+A little detail would be reforcing that without the adapter class, libraries would conflite and classes couldn't communicate.
+
+
+Design Patterns (Nelson Matos)
+
+Iterator: 
+The design pattern is relatively simple, since the iterator is extremely used (doing the same as 'for/while' cycles, but without accessing object representations), so the explanation is concise and complete.
