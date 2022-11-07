@@ -1,0 +1,15 @@
+Code smell (Ana Antunes)
+ 
+Duplicate code: 
+Firstly, I am totally agreed with that example. The refactoring proposed it´s also a possible solution, but in my opinion, you can give more alternatives even betters.
+ 
+Long parameter list: 
+It is a good example for long parameter code smell. However, you could be more specific in identifying the problem in this code and the problems it causes.
+
+
+Code smell (Renato Viola)
+
+Dead code: 
+This is not exactly what I understand by dead code, in the sense that there is no code that is never used/executed.But I agreed with the fact that the method should be clean as there is a commented code which makes the method confused and sloppy.
+
+
