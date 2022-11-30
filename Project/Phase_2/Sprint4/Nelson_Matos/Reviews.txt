@@ -1,0 +1,35 @@
+Reviews (by Nelson):
+
+Task menu (Joana Wang)
+
+
+Use case diagram
+
+The diagram was well structured and all of the available menu options such as "Add task", "Set Properties" and 
+"Delete Task" were covered. These are pretty straight-forward interaction between the user and the application
+so there isn't anything to add.
+
+
+Use case description
+
+
+All the use cases were pretty well explained except the fact that in the end of the "Main Flow" of each of them
+there's an interaction between the system and an internal intermediate that shouldn'be described or even
+mentioned. Usually, use cases tend to hide the intricacies of system procedures in order to keep everything simple
+and easy to understand.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Dependency metrics (Pedro Estróia)
+
+The explanation was well-rounded and it covered all the important parts regarding the 
+Dependency Metric. Each of the parameters (and their values) displayed by the plugin had their 
+respective correlation with the classes from the Gantt codebase which helped to understand some of
+these concepts. There's harshly anything to say about this script as it was meticulously thought through.
+
+
+
+
+
+
