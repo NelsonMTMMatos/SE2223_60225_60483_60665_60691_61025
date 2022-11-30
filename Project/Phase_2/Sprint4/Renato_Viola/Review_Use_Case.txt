@@ -1,0 +1,35 @@
+USE CASES REVIEW - RESOURCE SUBSYSTEM (Pedro Estróia)
+Reviewer: Renato Viola
+
+
+DIAGRAM:
+The diagram is simple, compact and adequate.
+
+DESCRIPTIONS:
+
+AddResource:
+
+In step 2 of the main flow, the exact properties
+comprising a resource didn't need to be described.
+Merely stating "The system asks the user to enter
+the new resource's properties." would be enough.
+That aside, sound use case explanation.
+
+
+
+SetResourceProperty:
+
+Nothing to add. Sound explanation.
+
+
+
+DeleteResource:
+
+Nothing to add. Sound explanation.
+
+
+
+SendEmail:
+
+Step 3 could have been divided into 2 steps.
+Nothing to add other than what was mentioned.
