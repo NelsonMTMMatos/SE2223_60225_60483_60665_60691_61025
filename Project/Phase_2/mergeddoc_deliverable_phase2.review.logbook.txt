@@ -1,0 +1,237 @@
+Reviews:
+
+
+/////////////////////////////////
+/								/
+/		   USE CASES			/	
+/								/
+/////////////////////////////////
+
+
+
+
+
+Ana
+
+
+Use case diagram (Nelson):
+
+Overall, this is a well structured diagram, according to the app user interaction.
+
+
+To be a little more complete, he should also add "Web Server" Use Case, where load and store use cases "include" Web 
+Server Use Caseand adding a label, something like, "load/store at server"), to clarify if is an user or server storage/loader.
+
+The option "Quit" is important to add too(as UseCase), and adding an "Alternative Flow", to when we change something on 
+the project there is a warning by system asking if we want to save it. 
+
+
+Use case descriptions (Nelson):
+
+The Use Case descriptions are simple and straightfull, there are only some little details to mention.
+
+Primarily, there is a little mistake in "Import file" Use Case, the "Post  Condition" should have the number 1.
+
+In "Properties" Use Case, it would be more consistent with the other Use Cases, starting by "The User..".
+
+Finally, "Open Project" Use Case should also have the same "Alternative Flow" as "Quit", that I already mentioned above.
+
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Joana
+
+
+Use case diagram (Renato):
+
+According to the described use cases, the use case diagram is all correct, only representing the essential actors 
+and use cases, with well-defined boundaries.
+
+
+Use case descriptions (Renato):
+
+Use case: Undo
+The description is clear and exact, with no extra unnecessary information.
+
+
+Use case: Redo
+The description, as well as the use case action, are similar to the one before. So it is also correct and compact.
+
+
+Use case: Refresh
+Well done.
+
+
+Use case: Search 
+You can add an IF condition or alternative flow in the main flow 3. If the system didn´t find what the user 
+is looking for, it doesn´t react to the action. All the rest description is fine.
+
+
+Use case: Cut
+The description is clear, as always. Just two points to improve:
+	- In the main flow topic 2, the fact that the system stores the selected items shouldn´t be mentioned because 
+	  it´s related to internal behavior.
+	- In the postconditions, you can just say "Selected items were cut".
+
+
+Use case: Copy
+The description seems correct and brief.
+
+
+Use case: Paste
+Well done. It´s simple and easy to understand.
+
+
+Use case: Settings
+As you mentioned, the system displays a window with various tabs, which can set different parts of the system. 
+Maybe you can represent each one as the actor's interaction with the system since they are setting different information.
+
+
+Just one additional suggestion for all the use cases, you could renumber que use case ID to simplify the identification 
+of all the use cases of the program. 
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Nelson 
+
+
+Use case diagram (Joana):
+
+The diagram was well structured and all of the available menu options such as "Add task", "Set Properties" and 
+"Delete Task" were covered. These are pretty straight-forward interaction between the user and the application
+so there isn't anything to add.
+
+
+Use case description (Joana):
+
+All the use cases were pretty well explained except the fact that in the end of the "Main Flow" of each of them
+there's an interaction between the system and an internal intermediate that shouldn'be described or even
+mentioned. Usually, use cases tend to hide the intricacies of system procedures in order to keep everything simple
+and easy to understand.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Pedro 
+
+
+Use case diagram (Ana):
+
+The diagram is assertive and well-specified, but the use cases ViewSummary, ViewLicense and ViewLibraries
+could be aglomerated in just one use case called 'About', as this is the way the interaction with the user occurs.
+These specific interaction could be explained in the description instead, in my opinion. Overall, the diagram is
+complete and very clear.
+
+
+Use case description (Ana):
+
+The description is concise, yet very complete. However, there is no information regarding the 'About' tab,
+only about the specific tabs, which can be a little misleading, since the actor interacts directly with the
+'About' use case, and only after that with its separate components.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Renato 
+
+
+Use case diagram (Pedro):
+
+The diagram is simple, compact and adequate.
+
+
+Use case description (Pedro):
+
+AddResource:
+
+In step 2 of the main flow, the exact properties
+comprising a resource didn't need to be described.
+Merely stating "The system asks the user to enter
+the new resource's properties." would be enough.
+That aside, sound use case explanation.
+
+
+
+SetResourceProperty:
+
+Nothing to add. Sound explanation.
+
+
+
+DeleteResource:
+
+Nothing to add. Sound explanation.
+
+
+
+SendEmail:
+
+Step 3 could have been divided into 2 steps.
+Nothing to add other than what was mentioned.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+
+/////////////////////////////////
+/								/
+/			METRICS				/	
+/								/
+/////////////////////////////////
+
+
+Ana 
+
+To be added...
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Joana 
+
+To be added...
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Nelson 
+
+
+Dependency metric (Pedro):
+
+The explanation was well-rounded and it covered all the important parts regarding the 
+Dependency Metric. Each of the parameters (and their values) displayed by the plugin had their 
+respective correlation with the classes from the Gantt codebase which helped to understand some of
+these concepts. There's harshly anything to say about this script as it was meticulously thought through.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Pedro 
+
+
+Complexity metric (Joana):
+
+This description is very illustrative of the chosen metric and straight to the point.
+The troublespots could be a little more explored, referring possible reasons for why those class have those values.
+Apart from that, there's nothing to point out.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
+
+Renato 
+
+
+Lines of code metric (Nelson):
+
+The individual metrics themselves could have been  explained in more detail, rather than a small note 
+section displaying only what their acronyms stand for. Aside from that, the purpose of the metrics and how 
+they're used was made very clear. The explanation is elaborate enough and mentions important concepts, 
+while making them easy to understand. The analysis of the codebase's troublespots was well handled, 
+as the metrics' values were interpreted very logically and associated with each other.
+The section explaining the metrics further and how their interpretation isn't so linear is a nice touch, though maybe
+a bit out of place after analysing the codebase's troublespots.The code smells mentioned weren't very elaborated upon,
+but then again, the essential was mentioned and the metrics they affect are there.
+
+
+-----------------------------------------------------------//-----------------------------------------------------------
