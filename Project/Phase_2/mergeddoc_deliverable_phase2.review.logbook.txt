@@ -16,10 +16,8 @@ Use case diagram (Nelson):
 
 Overall, this is a well structured diagram, according to the app user interaction.
 
-
 To be a little more complete, he should also add "Web Server" Use Case, where load and store use cases "include" Web 
 Server Use Caseand adding a label, something like, "load/store at server"), to clarify if is an user or server storage/loader.
-
 The option "Quit" is important to add too(as UseCase), and adding an "Alternative Flow", to when we change something on 
 the project there is a warning by system asking if we want to save it. 
 
@@ -29,9 +27,7 @@ Use case descriptions (Nelson):
 The Use Case descriptions are simple and straightfull, there are only some little details to mention.
 
 Primarily, there is a little mistake in "Import file" Use Case, the "Post  Condition" should have the number 1.
-
 In "Properties" Use Case, it would be more consistent with the other Use Cases, starting by "The User..".
-
 Finally, "Open Project" Use Case should also have the same "Alternative Flow" as "Quit", that I already mentioned above.
 
 
@@ -181,7 +177,15 @@ Nothing to add other than what was mentioned.
 
 Ana 
 
-To be added...
+Chidamber and Kemerer metric(Renato):
+
+The explanation is quite simple and clear, so there are only some details to take caution.
+
+The text should have a little more examples to specific metrics and relating with graphics.
+The excels data graphic visualisation don't help much as a big picture of the potential metric's problems,
+maybe have a BarChart or Box Plot of each metric, by the number of classes, would help to 
+detect wich are the main atention to focus on risky values of metrics and connect with the text.
+The Code Smells metrics relation is quite interesting and relatable.
 
 
 -----------------------------------------------------------//-----------------------------------------------------------
