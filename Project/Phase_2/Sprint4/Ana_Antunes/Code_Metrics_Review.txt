@@ -1,0 +1,14 @@
+Code Metrics Review - CHIDAMBER AND KEMERER METRICS(Renato Viola)
+
+
+
+The explanation is quite simple and clear, so there are only some details to take caution.
+
+
+The text should have a little more examples to specific metrics and relating with graphics.
+
+The excels data graphic visualisation don't help much as a big picture of the potential metric's problems,
+maybe have a BarChart or Box Plot of each metric, by the number of classes, would help to 
+detect wich are the main atention to focus on risky values of metrics and connect with the text.
+
+The Code Smells metrics relation is quite interesting and relatable.
