@@ -1,0 +1,31 @@
+
+
+USE CASES REVIEW - Project Subsystem(Nelson Matos)
+
+
+
+
+DIAGRAM:
+
+
+Overall, this is a well structured diagram, according to the app user interaction.
+
+
+To be a little more complete, he should also add "Web Server" Use Case, where load and store use cases "include" Web Server Use Case
+and adding a label, something like, "load/store at server"), to clarify if is an user or server storage/loader.
+
+The option "Quit" is important to add too(as UseCase), and adding an "Alternative Flow", to when we change something on the project there is a warning by system asking if we want to save it. 
+
+
+
+DESCRIPTIONS:
+
+
+The Use Case descriptions are simple and straightfull, there are only some little details to mention.
+
+
+Primarily, there is a little mistake in "Import file" Use Case, the "Post  Condition" should have the number 1.
+
+In "Properties" Use Case, it would be more consistent with the other Use Cases, starting by "The User..".
+
+Finally, "Open Project" Use Case should also have the same "Alternative Flow" as "Quit", that I already mentioned above.
