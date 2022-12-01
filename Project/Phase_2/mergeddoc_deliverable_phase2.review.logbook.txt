@@ -177,7 +177,7 @@ Nothing to add other than what was mentioned.
 
 Ana 
 
-Chidamber and Kemerer metric(Renato):
+Chidamber and Kemerer metric (Renato):
 
 The explanation is quite simple and clear, so there are only some details to take caution.
 
