@@ -195,7 +195,33 @@ The Code Smells metrics relation is quite interesting and relatable.
 
 Joana 
 
-To be added...
+Before explaining each metric, I think there could be an introductory text about this metric and what consists of. 
+
+
+Abstractness:
+The explanation is clear and objective.
+
+
+Afferent Coupling:
+The problem spot is correctly identified. In fact, the preferred values for this metric are in the range of 0 to 500. 
+Therefore, the mentioned package would cause problems if modified. But in general, the Ca average is within range.
+
+
+Efferent Coupling:
+The present problem is too many dependencies on the classes in other packages, so reorganizing the class into different 
+packages may not be the possible solution for the situation.
+
+
+Distance from the Main Sequence:
+The description is understandable and compact. Just didn´t mention which one could cause problems. There are two 
+extreme-value packages, but the distance value should be as low as possible, so the main problem spot is on the package “net.sourceforge.ganttproject.filter”.
+
+
+Instability:
+According to searches, the preferred values of the metric it´s range between 0 to 0.3 or 0.7 to 1. That said, a package 
+should be very stable or unstable, avoiding intermediate stability. And you just referred that the best value is near 1, 
+but values close to 0 are also acceptable.
+
 
 -----------------------------------------------------------//-----------------------------------------------------------
 
