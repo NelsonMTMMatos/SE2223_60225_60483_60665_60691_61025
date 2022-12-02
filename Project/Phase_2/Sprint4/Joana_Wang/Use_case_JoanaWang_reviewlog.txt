@@ -1,0 +1,41 @@
+Use case rewiew - Renato Viola
+
+
+Use case: Undo
+The description is clear and exact, with no extra unnecessary information.
+
+
+Use case: Redo
+The description, as well as the use case action, are similar to the one before. So it is also correct and compact.
+
+
+Use case: Refresh
+Well done.
+
+
+Use case: Search 
+You can add an IF condition or alternative flow in the main flow 3. If the system didn´t find what the user is looking for, it doesn´t react to the action. All the rest description is fine.
+
+
+Use case: Cut
+The description is clear, as always. Just two points to improve:
+- In the main flow topic 2, the fact that the system stores the selected items shouldn´t be mentioned because it´s related to internal behavior.
+- In the postconditions, you can just say "Selected items were cut".
+
+
+Use case: Copy
+The description seems correct and brief.
+
+
+Use case: Paste
+Well done. It´s simple and easy to understand.
+
+
+Use case: Settings
+As you mentioned, the system displays a window with various tabs, which can set different parts of the system. Maybe you can represent each one as the actor's interaction with the system since they are setting different information.
+
+
+According to the described use cases, the use case diagram is all correct, only representing the essential actors and use cases, with well-defined boundaries.
+
+
+Just one additional suggestion for all the use cases, you could renumber que use case ID to simplify the identification of all the use cases of the program. 
