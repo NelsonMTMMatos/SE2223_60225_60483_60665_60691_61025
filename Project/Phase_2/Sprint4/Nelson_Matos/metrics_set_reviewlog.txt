@@ -1,6 +1,0 @@
-Dependency metrics (Pedro Estróia)
-
-The explanation was well-rounded and it covered all the important parts regarding the 
-Dependency Metric. Each of the parameters (and their values) displayed by the plugin had their 
-respective correlation with the classes from the Gantt codebase which helped to understand some of
-these concepts. There's harshly anything to say about this script as it was meticulously thought through.
