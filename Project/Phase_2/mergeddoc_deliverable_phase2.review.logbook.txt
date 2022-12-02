@@ -183,7 +183,6 @@ Ana
 Chidamber and Kemerer metric (Renato):
 
 The explanation is quite simple and clear, so there are only some details to take caution.
-
 The text should have a little more examples to specific metrics and relating with graphics.
 The excels data graphic visualisation don't help much as a big picture of the potential metric's problems,
 maybe have a BarChart or Box Plot of each metric, by the number of classes, would help to 
@@ -194,6 +193,8 @@ The Code Smells metrics relation is quite interesting and relatable.
 -----------------------------------------------------------//-----------------------------------------------------------
 
 Joana 
+
+Martin Packaging Metrics (Ana):
 
 Before explaining each metric, I think there could be an introductory text about this metric and what consists of. 
 
